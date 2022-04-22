@@ -1,0 +1,41 @@
+* {font-family: 'Gowun Batang', serif;
+    font-family: 'Lora', serif; 
+    margin: 0;}
+
+.notice-rest {
+    margin: 100px 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px; height: 300px;
+    background-color: honeydew;
+}
+
+img {
+    width: 100px; height: 60px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+img:hover {
+    animation: return 2000ms ease-in-out ;
+}
+
+@keyframes return {
+    from{ opacity: 0;}
+    to{ opacity: 0;}
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 30px;
+    padding-bottom: 10px;
+    letter-spacing: 0.1em;
+ 
+
+}
+p { font-size: 14px;
+    letter-spacing: 0.2em; }
+
+
